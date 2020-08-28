@@ -1,4 +1,4 @@
-puts 'bubble_sort method'
+# 'bubble_sort method'
 def bubble_sort(array)
   swap = true
   while swap
@@ -15,9 +15,7 @@ def bubble_sort(array)
   array
 end
 
-puts bubble_sort([5, 3, 1, 2])
-
-puts 'bubble_sort_by method'
+# 'bubble_sort_by method'
 def bubble_sort_by(array)
   swap = true
   while swap
@@ -34,8 +32,6 @@ def bubble_sort_by(array)
   array
 end
 
-arr = bubble_sort_by(%w[hi hello hey]) do |left, right|
+bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
-
-puts arr
