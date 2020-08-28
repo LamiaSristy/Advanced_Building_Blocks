@@ -2,8 +2,10 @@
  In this project, I have created a method called #bubble_sort_by which sorts an array by accepting a block. I have used yield inside the method definition to accomplish the requirements.
 
 ## Built With
--Ruby
--VS Code
+
+- Ruby
+- VS Code
+
 
 ## Author Details
 
